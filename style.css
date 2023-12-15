@@ -32,11 +32,11 @@ form{
     border: none;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    font-size: 10px;
+    font-size: 18px;
     color: #333;
 }
 
-search-button{
+#search-button{
     padding: 10px 20px;
     background-color: #138065;
     color: #fff;
@@ -46,4 +46,21 @@ search-button{
     cursor: pointer;
     border-radius: 5px;
     margin-left: 10px;
+}
+
+.search-results{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.search-result{
+    margin-bottom: 60px;
+    width: 30px;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
 }
