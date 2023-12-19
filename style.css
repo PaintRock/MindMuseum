@@ -48,7 +48,11 @@ form {
     margin-left: 10px;
 }
 
+<<<<<<< HEAD
 .search-results {
+=======
+.search-results{
+>>>>>>> 296da03fcc61983dc3b75a227c5a33e62c2d33ab
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -56,13 +60,20 @@ form {
     margin: 0 auto;
 }
 
+<<<<<<< HEAD
 .search-result {
     margin-bottom: 60px;
     width: 30%;
+=======
+.search-results{
+    margin-bottom: 60px;
+    width: 30px;
+>>>>>>> 296da03fcc61983dc3b75a227c5a33e62c2d33ab
     height: 100%;
     border-radius: 5px;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
     overflow: hidden;
+<<<<<<< HEAD
 }
 
 .search-result img  {
@@ -112,4 +123,6 @@ form {
     .search-result {
         width: 100%
     }    
+=======
+>>>>>>> 296da03fcc61983dc3b75a227c5a33e62c2d33ab
 }
